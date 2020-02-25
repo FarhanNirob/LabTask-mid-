@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+</head>
+<body>
+	<div>
+		<h1>Edit Info</h1> 		
+	</div>
+
+	<a href="/home/edit"> Back to List</a> |
+	<a href="/logout"> logout</a><br>
+
+	<form method="post">
+		<table>
+			<tr>
+				<td>Id</td>
+				<td><input type="text" readonly name="id" value="<%=employee.id%>"></td>
+			</tr>
+			<tr>
+				<td>Employeename</td>
+				<td><input type="text" name="employeename" value="<%=employee.employeename%>"></td>
+			</tr>
+			<tr>
+				<td>Contact no :</td>
+				<td><input type="text" name="type" value="<%=employee.employeename%>"></td>
+			</tr>
+			<tr>
+				<td>Username :</td>
+				<td><input type="text" name="type" value="<%=employee.username%>"></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="password" name="password" value="<%=user.password%>"></td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td><input type="submit" name="submit" value="Update"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
